@@ -16,7 +16,17 @@
             </form>
         </div>
         <h2>Hasil Analisis</h2>
-        <div id="result"></div>
+        <div id="result">
+            {% if predictions %}
+                <ul>
+                    {% for prediction in predictions %}
+                        <li>{{ prediction }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>Belum ada hasil analisis.</p>
+            {% endif %}
+        </div>
     </div>
 </body>
 </html>
