@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    margin-right: 20px;
+}
+
+.credit {
+    margin-right: 20px;
+}
+
+.logout {
+    margin-right: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box {
+    border: 1px solid lime;
+    padding: 20px;
+    display: inline-block;
+}
+
+.btn {
+    background-color: black;
+    color: lime;
+    border: 1px solid lime;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+textarea {
+    background-color: black;
+    color: lime;
+    border: 1px solid lime;
+    width: 300px;
+    height: 150px;
+    resize: none;
+}
