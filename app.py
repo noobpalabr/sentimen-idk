@@ -1,6 +1,6 @@
-import os
 from flask import Flask, request, render_template, jsonify
 import pickle
+import os
 
 app = Flask(__name__)
 
