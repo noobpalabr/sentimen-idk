@@ -14,7 +14,7 @@ with open('vectorizer.pkl', 'rb') as vectorizer_file:
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', predictions=None)
 
 @app.route('/predict', methods=['POST'])
 def predict():
