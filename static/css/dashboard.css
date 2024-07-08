@@ -23,6 +23,9 @@ h1, h2 {
 textarea {
     width: 570px;
     resize: none;
+    background-color: black;
+    color: lime;
+    border: 1px solid lime;
 }
 
 @media only screen and (max-width: 375px) {
